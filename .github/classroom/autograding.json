@@ -1,14 +1,44 @@
 {
   "tests": [
     {
-      "name": "Test de jasmine",
+      "name": "wikipedia.service",
       "setup": "npm install && npm install -g jasmine",
-      "run": "npx jasmine",
+      "run": "npx jasmine spec/integration/wikipedia.service.spec.js ",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 50
+      "points": 1
+    },
+    {
+      "name": "calculator.function",
+      "setup": "",
+      "run": "npx jasmine spec/unit/calculator.function.spec.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "calculator.class",
+      "setup": "",
+      "run": "npx jasmine spec/unit/calculator.class.spec.js ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "weather.mock",
+      "setup": "",
+      "run": "npx jasmine spec/unit/weather.mock.spec.js ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
