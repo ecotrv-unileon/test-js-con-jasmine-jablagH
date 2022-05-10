@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test de jasmine",
+      "setup": "npm install && npm install -g jasmine",
+      "run": "npx jasmine",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
